@@ -6,14 +6,14 @@
 # Imprime el diccionario "frutas" en la consola.
 # Imprime el valor asociado a la clave "banana" en la consola.
 # Imprime el valor asociado a la clave "uva" en la consola.
-
+# ejercicio.py
 frutas = {
     "manzana": "roja",
-    "banana": , # banana lleva el valor "amarilla"
+    "banana": "amarilla",
     "pera": "verde",
-    "naranja": # naranja lleva el valor "naranja"
+    "naranja": "naranja"
 }
 
 print(frutas)
-print() # banana lleva el valor "amarilla"
-print(frutas.get("uva"))
+print(frutas.get("banana"))  # banana lleva el valor "amarilla"
+print(frutas.get("uva"))     # uva no está en el diccionario
